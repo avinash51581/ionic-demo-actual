@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        
+    <ion-title>View projects</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div *ngFor="let m of masterProjects">
+      <ion-item (click)="viewDetails(m.NP_PROJ_CODE)" detail>
+          <ion-icon ios="ios-bookmarks" md="md-bookmarks"></ion-icon>
+          <ion-label>
+              {{m.NP_PROJ_DESCN}}
+          </ion-label>
+        </ion-item>
+  </div>
+
+
+
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title><b>@2019 www.nabard.com all right reserved</b></ion-title>
+  </ion-toolbar>
+</ion-footer>

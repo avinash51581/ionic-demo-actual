@@ -1,0 +1,1589 @@
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git branch firstIonicBranch
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git checkout firstIonicBranch
+A       config.xml
+M       ionic.config.json
+M       package-lock.json
+M       package.json
+A       resources/README.md
+A       resources/android/icon/drawable-hdpi-icon.png
+A       resources/android/icon/drawable-ldpi-icon.png
+A       resources/android/icon/drawable-mdpi-icon.png
+A       resources/android/icon/drawable-xhdpi-icon.png
+A       resources/android/icon/drawable-xxhdpi-icon.png
+A       resources/android/icon/drawable-xxxhdpi-icon.png
+A       resources/android/splash/drawable-land-hdpi-screen.png
+A       resources/android/splash/drawable-land-ldpi-screen.png
+A       resources/android/splash/drawable-land-mdpi-screen.png
+A       resources/android/splash/drawable-land-xhdpi-screen.png
+A       resources/android/splash/drawable-land-xxhdpi-screen.png
+A       resources/android/splash/drawable-land-xxxhdpi-screen.png
+A       resources/android/splash/drawable-port-hdpi-screen.png
+A       resources/android/splash/drawable-port-ldpi-screen.png
+A       resources/android/splash/drawable-port-mdpi-screen.png
+A       resources/android/splash/drawable-port-xhdpi-screen.png
+A       resources/android/splash/drawable-port-xxhdpi-screen.png
+A       resources/android/splash/drawable-port-xxxhdpi-screen.png
+A       resources/android/xml/network_security_config.xml
+A       resources/icon.png
+A       resources/icon.png.md5
+A       resources/ios/icon/icon-1024.png
+A       resources/ios/icon/icon-40.png
+A       resources/ios/icon/icon-40@2x.png
+A       resources/ios/icon/icon-40@3x.png
+A       resources/ios/icon/icon-50.png
+A       resources/ios/icon/icon-50@2x.png
+A       resources/ios/icon/icon-60.png
+A       resources/ios/icon/icon-60@2x.png
+A       resources/ios/icon/icon-60@3x.png
+A       resources/ios/icon/icon-72.png
+A       resources/ios/icon/icon-72@2x.png
+A       resources/ios/icon/icon-76.png
+A       resources/ios/icon/icon-76@2x.png
+A       resources/ios/icon/icon-83.5@2x.png
+A       resources/ios/icon/icon-small.png
+A       resources/ios/icon/icon-small@2x.png
+A       resources/ios/icon/icon-small@3x.png
+A       resources/ios/icon/icon.png
+A       resources/ios/icon/icon@2x.png
+A       resources/ios/splash/Default-568h@2x~iphone.png
+A       resources/ios/splash/Default-667h.png
+A       resources/ios/splash/Default-736h.png
+A       resources/ios/splash/Default-Landscape-736h.png
+A       resources/ios/splash/Default-Landscape@2x~ipad.png
+A       resources/ios/splash/Default-Landscape@~ipadpro.png
+A       resources/ios/splash/Default-Landscape~ipad.png
+A       resources/ios/splash/Default-Portrait@2x~ipad.png
+A       resources/ios/splash/Default-Portrait@~ipadpro.png
+A       resources/ios/splash/Default-Portrait~ipad.png
+A       resources/ios/splash/Default@2x~iphone.png
+A       resources/ios/splash/Default@2x~universal~anyany.png
+A       resources/ios/splash/Default~iphone.png
+A       resources/splash.png
+A       resources/splash.png.md5
+A       src/Model/place.model.ts
+M       src/app/app-routing.module.ts
+M       src/app/app.component.html
+M       src/app/app.component.ts
+M       src/app/app.module.ts
+A       src/app/auth/login/login.module.ts
+A       src/app/auth/login/login.page.html
+A       src/app/auth/login/login.page.scss
+A       src/app/auth/login/login.page.spec.ts
+A       src/app/auth/login/login.page.ts
+A       src/app/auth/register/register.module.ts
+A       src/app/auth/register/register.page.html
+A       src/app/auth/register/register.page.scss
+A       src/app/auth/register/register.page.spec.ts
+A       src/app/auth/register/register.page.ts
+A       src/app/guard/auth.guard.spec.ts
+A       src/app/guard/auth.guard.ts
+M       src/app/home/home.module.ts
+M       src/app/home/home.page.html
+M       src/app/home/home.page.scss
+M       src/app/home/home.page.ts
+A       src/app/interceptors/token.interceptor.ts
+A       src/app/models/RequestStatus.ts
+A       src/app/models/sqliteMock.ts
+A       src/app/models/user.ts
+A       src/app/new-place/new-place.module.ts
+A       src/app/new-place/new-place.page.html
+A       src/app/new-place/new-place.page.scss
+A       src/app/new-place/new-place.page.spec.ts
+A       src/app/new-place/new-place.page.ts
+A       src/app/pages/auth/get-users/get-users.module.ts
+A       src/app/pages/auth/get-users/get-users.page.html
+A       src/app/pages/auth/get-users/get-users.page.scss
+A       src/app/pages/auth/get-users/get-users.page.spec.ts
+A       src/app/pages/auth/get-users/get-users.page.ts
+A       src/app/pages/auth/login/login.module.ts
+A       src/app/pages/auth/login/login.page.html
+A       src/app/pages/auth/login/login.page.scss
+A       src/app/pages/auth/login/login.page.spec.ts
+A       src/app/pages/auth/login/login.page.ts
+A       src/app/pages/auth/register/registeSwitched to branch 'firstIonicBranch'
+r.module.ts
+A       src/app/pages/auth/register/register.page.html
+A       src/app/pages/auth/register/register.page.scss
+A       src/app/pages/auth/register/register.page.spec.ts
+A       src/app/pages/auth/register/register.page.ts
+A       src/app/pages/dashboard/dashboard.module.ts
+A       src/app/pages/dashboard/dashboard.page.html
+A       src/app/pages/dashboard/dashboard.page.scss
+A       src/app/pages/dashboard/dashboard.page.spec.ts
+A       src/app/pages/dashboard/dashboard.page.ts
+A       src/app/pages/developer/developer.module.ts
+A       src/app/pages/developer/developer.page.html
+A       src/app/pages/developer/developer.page.scss
+A       src/app/pages/developer/developer.page.spec.ts
+A       src/app/pages/developer/developer.page.ts
+A       src/app/pages/developers/developers.module.ts
+A       src/app/pages/developers/developers.page.html
+A       src/app/pages/developers/developers.page.scss
+A       src/app/pages/developers/developers.page.spec.ts
+A       src/app/pages/developers/developers.page.ts
+A       src/app/pages/landing/landing.module.ts
+A       src/app/pages/landing/landing.page.html
+A       src/app/pages/landing/landing.page.scss
+A       src/app/pages/landing/landing.page.spec.ts
+A       src/app/pages/landing/landing.page.ts
+A       src/app/pages/photo/photo.module.ts
+A       src/app/pages/photo/photo.page.html
+A       src/app/pages/photo/photo.page.scss
+A       src/app/pages/photo/photo.page.spec.ts
+A       src/app/pages/photo/photo.page.ts
+A       src/app/place/place.module.ts
+A       src/app/place/place.page.html
+A       src/app/place/place.page.scss
+A       src/app/place/place.page.spec.ts
+A       src/app/place/place.page.ts
+A       src/app/services/alert.service.spec.ts
+A       src/app/services/alert.service.ts
+A       src/app/services/auth.service.spec.ts
+A       src/app/services/auth.service.ts
+A       src/app/services/database.service.spec.ts
+A       src/app/services/database.service.ts
+A       src/app/services/env.service.spec.ts
+A       src/app/services/env.service.ts
+A       src/app/splash/splash.module.ts
+A       src/app/splash/splash.page.html
+A       src/app/splash/splash.page.scss
+A       src/app/splash/splash.page.spec.ts
+A       src/app/splash/splash.page.ts
+A       src/assets/img/Agricultural-Biologicals-Testing.jpg
+A       src/assets/img/agricultural-biologicals.png
+A       src/assets/img/img3.jpg
+A       src/assets/seed.sql
+M       src/global.scss
+M       src/index.html
+M       src/main.ts
+A       src/services/places.service.ts
+M       src/theme/variables.scss
+A       typings/cordova-typings.d.ts
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git status
+On branch firstIonicBranch
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   config.xml
+        modified:   ionic.config.json
+        modified:   package-lock.json
+        modified:   package.json
+        new file:   resources/README.md
+        new file:   resources/android/icon/drawable-hdpi-icon.png
+        new file:   resources/android/icon/drawable-ldpi-icon.png
+        new file:   resources/android/icon/drawable-mdpi-icon.png
+        new file:   resources/android/icon/drawable-xhdpi-icon.png
+        new file:   resources/android/icon/drawable-xxhdpi-icon.png
+        new file:   resources/android/icon/drawable-xxxhdpi-icon.png
+        new file:   resources/android/splash/drawable-land-hdpi-screen.png
+        new file:   resources/android/splash/drawable-land-ldpi-screen.png
+        new file:   resources/android/splash/drawable-land-mdpi-screen.png
+        new file:   resources/android/splash/drawable-land-xhdpi-screen.png
+        new file:   resources/android/splash/drawable-land-xxhdpi-screen.png
+        new file:   resources/android/splash/drawable-land-xxxhdpi-screen.png
+        new file:   resources/android/splash/drawable-port-hdpi-screen.png
+        new file:   resources/android/splash/drawable-port-ldpi-screen.png
+        new file:   resources/android/splash/drawable-port-mdpi-screen.png
+        new file:   resources/android/splash/drawable-port-xhdpi-screen.png
+        new file:   resources/android/splash/drawable-port-xxhdpi-screen.png
+        new file:   resources/android/splash/drawable-port-xxxhdpi-screen.png
+        new file:   resources/android/xml/network_security_config.xml
+        new file:   resources/icon.png
+        new file:   resources/icon.png.md5
+        new file:   resources/ios/icon/icon-1024.png
+        new file:   resources/ios/icon/icon-40.png
+        new file:   resources/ios/icon/icon-40@2x.png
+        new file:   resources/ios/icon/icon-40@3x.png
+        new file:   resources/ios/icon/icon-50.png
+        new file:   resources/ios/icon/icon-50@2x.png
+        new file:   resources/ios/icon/icon-60.png
+        new file:   resources/ios/icon/icon-60@2x.png
+        new file:   resources/ios/icon/icon-60@3x.png
+        new file:   resources/ios/icon/icon-72.png
+        new file:   resources/ios/icon/icon-72@2x.png
+        new file:   resources/ios/icon/icon-76.png
+        new file:   resources/ios/icon/icon-76@2x.png
+        new file:   resources/ios/icon/icon-83.5@2x.png
+        new file:   resources/ios/icon/icon-small.png
+        new file:   resources/ios/icon/icon-small@2x.png
+        new file:   resources/ios/icon/icon-small@3x.png
+        new file:   resources/ios/icon/icon.png
+        new file:   resources/ios/icon/icon@2x.png
+        new file:   resources/ios/splash/Default-568h@2x~iphone.png
+        new file:   resources/ios/splash/Default-667h.png
+        new file:   resources/ios/splash/Default-736h.png
+        new file:   resources/ios/splash/Default-Landscape-736h.png
+        new file:   resources/ios/splash/Default-Landscape@2x~ipad.png
+        new file:   resources/ios/splash/Default-Landscape@~ipadpro.png
+        new file:   resources/ios/splash/Default-Landscape~ipad.png
+        new file:   resources/ios/splash/Default-Portrait@2x~ipad.png
+        new file:   resources/ios/splash/Default-Portrait@~ipadpro.png
+        new file:   resources/ios/splash/Default-Portrait~ipad.png
+        new file:   resources/ios/splash/Default@2x~iphone.png
+        new file:   resources/ios/splash/Default@2x~universal~anyany.png
+        new file:   resources/ios/splash/Default~iphone.png
+        new file:   resources/splash.png
+        new file:   resources/splash.png.md5
+        new file:   src/Model/place.model.ts
+        modified:   src/app/app-routing.module.ts
+        modified:   src/app/app.component.html
+        modified:   src/app/app.component.ts
+        modified:   src/app/app.module.ts
+        new file:   src/app/auth/login/login.module.ts
+        new file:   src/app/auth/login/login.page.html
+        new file:   src/app/auth/login/login.page.scss
+        new file:   src/app/auth/login/login.page.spec.ts
+        new file:   src/app/auth/login/login.page.ts
+        new file:   src/app/auth/register/register.module.ts
+        new file:   src/app/auth/register/register.page.html
+        new file:   src/app/auth/register/register.page.scss
+        new file:   src/app/auth/register/register.page.spec.ts
+        new file:   src/app/auth/register/register.page.ts
+        new file:   src/app/guard/auth.guard.spec.ts
+        new file:   src/app/guard/auth.guard.ts
+        modified:   src/app/home/home.module.ts
+        modified:   src/app/home/home.page.html
+        modified:   src/app/home/home.page.scss
+        modified:   src/app/home/home.page.ts
+        new file:   src/app/interceptors/token.interceptor.ts
+        new file:   src/app/models/RequestStatus.ts
+        new file:   src/app/models/sqliteMock.ts
+        new file:   src/app/models/user.ts
+        new file:   src/app/new-place/new-place.module.ts
+        new file:   src/app/new-place/new-place.page.html
+        new file:   src/app/new-place/new-place.page.scss
+        new file:   src/app/new-place/new-place.page.spec.ts
+        new file:   src/app/new-place/new-place.page.ts
+        new file:   src/app/pages/auth/get-users/get-users.module.ts
+        new file:   src/app/pages/auth/get-users/get-users.page.html
+        new file:   src/app/pages/auth/get-users/get-users.page.scss
+        new file:   src/app/pages/auth/get-users/get-users.page.spec.ts
+        new file:   src/app/pages/auth/get-users/get-users.page.ts
+        new file:   src/app/pages/auth/login/login.module.ts
+        new file:   src/app/pages/auth/login/login.page.html
+        new file:   src/app/pages/auth/login/login.page.scss
+        new file:   src/app/pages/auth/login/login.page.spec.ts
+        new file:   src/app/pages/auth/login/login.page.ts
+        new file:   src/app/pages/auth/register/register.module.ts
+        new file:   src/app/pages/auth/register/register.page.html
+        new file:   src/app/pages/auth/register/register.page.scss
+        new file:   src/app/pages/auth/register/register.page.spec.ts
+        new file:   src/app/pages/auth/register/register.page.ts
+        new file:   src/app/pages/dashboard/dashboard.module.ts
+        new file:   src/app/pages/dashboard/dashboard.page.html
+        new file:   src/app/pages/dashboard/dashboard.page.scss
+        new file:   src/app/pages/dashboard/dashboard.page.spec.ts
+        new file:   src/app/pages/dashboard/dashboard.page.ts
+        new file:   src/app/pages/developer/developer.module.ts
+        new file:   src/app/pages/developer/developer.page.html
+        new file:   src/app/pages/developer/developer.page.scss
+        new file:   src/app/pages/developer/developer.page.spec.ts
+        new file:   src/app/pages/developer/developer.page.ts
+        new file:   src/app/pages/developers/developers.module.ts
+        new file:   src/app/pages/developers/developers.page.html
+        new file:   src/app/pages/developers/developers.page.scss
+        new file:   src/app/pages/developers/developers.page.spec.ts
+        new file:   src/app/pages/developers/developers.page.ts
+        new file:   src/app/pages/landing/landing.module.ts
+        new file:   src/app/pages/landing/landing.page.html
+        new file:   src/app/pages/landing/landing.page.scss
+        new file:   src/app/pages/landing/landing.page.spec.ts
+        new file:   src/app/pages/landing/landing.page.ts
+        new file:   src/app/pages/photo/photo.module.ts
+        new file:   src/app/pages/photo/photo.page.html
+        new file:   src/app/pages/photo/photo.page.scss
+        new file:   src/app/pages/photo/photo.page.spec.ts
+        new file:   src/app/pages/photo/photo.page.ts
+        new file:   src/app/place/place.module.ts
+        new file:   src/app/place/place.page.html
+        new file:   src/app/place/place.page.scss
+        new file:   src/app/place/place.page.spec.ts
+        new file:   src/app/place/place.page.ts
+        new file:   src/app/services/alert.service.spec.ts
+        new file:   src/app/services/alert.service.ts
+        new file:   src/app/services/auth.service.spec.ts
+        new file:   src/app/services/auth.service.ts
+        new file:   src/app/services/database.service.spec.ts
+        new file:   src/app/services/database.service.ts
+        new file:   src/app/services/env.service.spec.ts
+        new file:   src/app/services/env.service.ts
+        new file:   src/app/splash/splash.module.ts
+        new file:   src/app/splash/splash.page.html
+        new file:   src/app/splash/splash.page.scss
+        new file:   src/app/splash/splash.page.spec.ts
+        new file:   src/app/splash/splash.page.ts
+        new file:   src/assets/img/Agricultural-Biologicals-Testing.jpg
+        new file:   src/assets/img/agricultural-biologicals.png
+        new file:   src/assets/img/img3.jpg
+        new file:   src/assets/seed.sql
+        modified:   src/global.scss
+        modified:   src/index.html
+        modified:   src/main.ts
+        new file:   src/services/places.service.ts
+        modified:   src/theme/variables.scss
+        new file:   typings/cordova-typings.d.ts
+
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git add .
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git status
+On branch firstIonicBranch
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   config.xml
+        modified:   ionic.config.json
+        modified:   package-lock.json
+        modified:   package.json
+        new file:   resources/README.md
+        new file:   resources/android/icon/drawable-hdpi-icon.png
+        new file:   resources/android/icon/drawable-ldpi-icon.png
+        new file:   resources/android/icon/drawable-mdpi-icon.png
+        new file:   resources/android/icon/drawable-xhdpi-icon.png
+        new file:   resources/android/icon/drawable-xxhdpi-icon.png
+        new file:   resources/android/icon/drawable-xxxhdpi-icon.png
+        new file:   resources/android/splash/drawable-land-hdpi-screen.png
+        new file:   resources/android/splash/drawable-land-ldpi-screen.png
+        new file:   resources/android/splash/drawable-land-mdpi-screen.png
+        new file:   resources/android/splash/drawable-land-xhdpi-screen.png
+        new file:   resources/android/splash/drawable-land-xxhdpi-screen.png
+        new file:   resources/android/splash/drawable-land-xxxhdpi-screen.png
+        new file:   resources/android/splash/drawable-port-hdpi-screen.png
+        new file:   resources/android/splash/drawable-port-ldpi-screen.png
+        new file:   resources/android/splash/drawable-port-mdpi-screen.png
+        new file:   resources/android/splash/drawable-port-xhdpi-screen.png
+        new file:   resources/android/splash/drawable-port-xxhdpi-screen.png
+        new file:   resources/android/splash/drawable-port-xxxhdpi-screen.png
+        new file:   resources/android/xml/network_security_config.xml
+        new file:   resources/icon.png
+        new file:   resources/icon.png.md5
+        new file:   resources/ios/icon/icon-1024.png
+        new file:   resources/ios/icon/icon-40.png
+        new file:   resources/ios/icon/icon-40@2x.png
+        new file:   resources/ios/icon/icon-40@3x.png
+        new file:   resources/ios/icon/icon-50.png
+        new file:   resources/ios/icon/icon-50@2x.png
+        new file:   resources/ios/icon/icon-60.png
+        new file:   resources/ios/icon/icon-60@2x.png
+        new file:   resources/ios/icon/icon-60@3x.png
+        new file:   resources/ios/icon/icon-72.png
+        new file:   resources/ios/icon/icon-72@2x.png
+        new file:   resources/ios/icon/icon-76.png
+        new file:   resources/ios/icon/icon-76@2x.png
+        new file:   resources/ios/icon/icon-83.5@2x.png
+        new file:   resources/ios/icon/icon-small.png
+        new file:   resources/ios/icon/icon-small@2x.png
+        new file:   resources/ios/icon/icon-small@3x.png
+        new file:   resources/ios/icon/icon.png
+        new file:   resources/ios/icon/icon@2x.png
+        new file:   resources/ios/splash/Default-568h@2x~iphone.png
+        new file:   resources/ios/splash/Default-667h.png
+        new file:   resources/ios/splash/Default-736h.png
+        new file:   resources/ios/splash/Default-Landscape-736h.png
+        new file:   resources/ios/splash/Default-Landscape@2x~ipad.png
+        new file:   resources/ios/splash/Default-Landscape@~ipadpro.png
+        new file:   resources/ios/splash/Default-Landscape~ipad.png
+        new file:   resources/ios/splash/Default-Portrait@2x~ipad.png
+        new file:   resources/ios/splash/Default-Portrait@~ipadpro.png
+        new file:   resources/ios/splash/Default-Portrait~ipad.png
+        new file:   resources/ios/splash/Default@2x~iphone.png
+        new file:   resources/ios/splash/Default@2x~universal~anyany.png
+        new file:   resources/ios/splash/Default~iphone.png
+        new file:   resources/splash.png
+        new file:   resources/splash.png.md5
+        new file:   src/Model/place.model.ts
+        modified:   src/app/app-routing.module.ts
+        modified:   src/app/app.component.html
+        modified:   src/app/app.component.ts
+        modified:   src/app/app.module.ts
+        new file:   src/app/auth/login/login.module.ts
+        new file:   src/app/auth/login/login.page.html
+        new file:   src/app/auth/login/login.page.scss
+        new file:   src/app/auth/login/login.page.spec.ts
+        new file:   src/app/auth/login/login.page.ts
+        new file:   src/app/auth/register/register.module.ts
+        new file:   src/app/auth/register/register.page.html
+        new file:   src/app/auth/register/register.page.scss
+        new file:   src/app/auth/register/register.page.spec.ts
+        new file:   src/app/auth/register/register.page.ts
+        new file:   src/app/guard/auth.guard.spec.ts
+        new file:   src/app/guard/auth.guard.ts
+        modified:   src/app/home/home.module.ts
+        modified:   src/app/home/home.page.html
+        modified:   src/app/home/home.page.scss
+        modified:   src/app/home/home.page.ts
+        new file:   src/app/interceptors/token.interceptor.ts
+        new file:   src/app/models/RequestStatus.ts
+        new file:   src/app/models/sqliteMock.ts
+        new file:   src/app/models/user.ts
+        new file:   src/app/new-place/new-place.module.ts
+        new file:   src/app/new-place/new-place.page.html
+        new file:   src/app/new-place/new-place.page.scss
+        new file:   src/app/new-place/new-place.page.spec.ts
+        new file:   src/app/new-place/new-place.page.ts
+        new file:   src/app/pages/auth/get-users/get-users.module.ts
+        new file:   src/app/pages/auth/get-users/get-users.page.html
+        new file:   src/app/pages/auth/get-users/get-users.page.scss
+        new file:   src/app/pages/auth/get-users/get-users.page.spec.ts
+        new file:   src/app/pages/auth/get-users/get-users.page.ts
+        new file:   src/app/pages/auth/login/login.module.ts
+        new file:   src/app/pages/auth/login/login.page.html
+        new file:   src/app/pages/auth/login/login.page.scss
+        new file:   src/app/pages/auth/login/login.page.spec.ts
+        new file:   src/app/pages/auth/login/login.page.ts
+        new file:   src/app/pages/auth/register/register.module.ts
+        new file:   src/app/pages/auth/register/register.page.html
+        new file:   src/app/pages/auth/register/register.page.scss
+        new file:   src/app/pages/auth/register/register.page.spec.ts
+        new file:   src/app/pages/auth/register/register.page.ts
+        new file:   src/app/pages/dashboard/dashboard.module.ts
+        new file:   src/app/pages/dashboard/dashboard.page.html
+        new file:   src/app/pages/dashboard/dashboard.page.scss
+        new file:   src/app/pages/dashboard/dashboard.page.spec.ts
+        new file:   src/app/pages/dashboard/dashboard.page.ts
+        new file:   src/app/pages/developer/developer.module.ts
+        new file:   src/app/pages/developer/developer.page.html
+        new file:   src/app/pages/developer/developer.page.scss
+        new file:   src/app/pages/developer/developer.page.spec.ts
+        new file:   src/app/pages/developer/developer.page.ts
+        new file:   src/app/pages/developers/developers.module.ts
+        new file:   src/app/pages/developers/developers.page.html
+        new file:   src/app/pages/developers/developers.page.scss
+        new file:   src/app/pages/developers/developers.page.spec.ts
+        new file:   src/app/pages/developers/developers.page.ts
+        new file:   src/app/pages/landing/landing.module.ts
+        new file:   src/app/pages/landing/landing.page.html
+        new file:   src/app/pages/landing/landing.page.scss
+        new file:   src/app/pages/landing/landing.page.spec.ts
+        new file:   src/app/pages/landing/landing.page.ts
+        new file:   src/app/pages/photo/photo.module.ts
+        new file:   src/app/pages/photo/photo.page.html
+        new file:   src/app/pages/photo/photo.page.scss
+        new file:   src/app/pages/photo/photo.page.spec.ts
+        new file:   src/app/pages/photo/photo.page.ts
+        new file:   src/app/place/place.module.ts
+        new file:   src/app/place/place.page.html
+        new file:   src/app/place/place.page.scss
+        new file:   src/app/place/place.page.spec.ts
+        new file:   src/app/place/place.page.ts
+        new file:   src/app/services/alert.service.spec.ts
+        new file:   src/app/services/alert.service.ts
+        new file:   src/app/services/auth.service.spec.ts
+        new file:   src/app/services/auth.service.ts
+        new file:   src/app/services/database.service.spec.ts
+        new file:   src/app/services/database.service.ts
+        new file:   src/app/services/env.service.spec.ts
+        new file:   src/app/services/env.service.ts
+        new file:   src/app/splash/splash.module.ts
+        new file:   src/app/splash/splash.page.html
+        new file:   src/app/splash/splash.page.scss
+        new file:   src/app/splash/splash.page.spec.ts
+        new file:   src/app/splash/splash.page.ts
+        new file:   src/assets/img/Agricultural-Biologicals-Testing.jpg
+        new file:   src/assets/img/agricultural-biologicals.png
+        new file:   src/assets/img/img3.jpg
+        new file:   src/assets/seed.sql
+        modified:   src/global.scss
+        modified:   src/index.html
+        modified:   src/main.ts
+        new file:   src/services/places.service.ts
+        modified:   src/theme/variables.scss
+        new file:   typings/cordova-typings.d.ts
+
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git commit -m "First Ionic Branch Commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'sai@sai-PC.(none)')
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$  git config --global user.email "avinashgawali11@gmail.com"
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git commit -m "First Ionic Branch Commit"
+[firstIonicBranch 3f44e68] First Ionic Branch Commit
+ 158 files changed, 5210 insertions(+), 244 deletions(-)
+ create mode 100644 config.xml
+ create mode 100644 resources/README.md
+ create mode 100644 resources/android/icon/drawable-hdpi-icon.png
+ create mode 100644 resources/android/icon/drawable-ldpi-icon.png
+ create mode 100644 resources/android/icon/drawable-mdpi-icon.png
+ create mode 100644 resources/android/icon/drawable-xhdpi-icon.png
+ create mode 100644 resources/android/icon/drawable-xxhdpi-icon.png
+ create mode 100644 resources/android/icon/drawable-xxxhdpi-icon.png
+ create mode 100644 resources/android/splash/drawable-land-hdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-ldpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-mdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-xhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-xxhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-xxxhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-hdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-ldpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-mdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-xhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-xxhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-xxxhdpi-screen.png
+ create mode 100644 resources/android/xml/network_security_config.xml
+ create mode 100644 resources/icon.png
+ create mode 100644 resources/icon.png.md5
+ create mode 100644 resources/ios/icon/icon-1024.png
+ create mode 100644 resources/ios/icon/icon-40.png
+ create mode 100644 resources/ios/icon/icon-40@2x.png
+ create mode 100644 resources/ios/icon/icon-40@3x.png
+ create mode 100644 resources/ios/icon/icon-50.png
+ create mode 100644 resources/ios/icon/icon-50@2x.png
+ create mode 100644 resources/ios/icon/icon-60.png
+ create mode 100644 resources/ios/icon/icon-60@2x.png
+ create mode 100644 resources/ios/icon/icon-60@3x.png
+ create mode 100644 resources/ios/icon/icon-72.png
+ create mode 100644 resources/ios/icon/icon-72@2x.png
+ create mode 100644 resources/ios/icon/icon-76.png
+ create mode 100644 resources/ios/icon/icon-76@2x.png
+ create mode 100644 resources/ios/icon/icon-83.5@2x.png
+ create mode 100644 resources/ios/icon/icon-small.png
+ create mode 100644 resources/ios/icon/icon-small@2x.png
+ create mode 100644 resources/ios/icon/icon-small@3x.png
+ create mode 100644 resources/ios/icon/icon.png
+ create mode 100644 resources/ios/icon/icon@2x.png
+ create mode 100644 resources/ios/splash/Default-568h@2x~iphone.png
+ create mode 100644 resources/ios/splash/Default-667h.png
+ create mode 100644 resources/ios/splash/Default-736h.png
+ create mode 100644 resources/ios/splash/Default-Landscape-736h.png
+ create mode 100644 resources/ios/splash/Default-Landscape@2x~ipad.png
+ create mode 100644 resources/ios/splash/Default-Landscape@~ipadpro.png
+ create mode 100644 resources/ios/splash/Default-Landscape~ipad.png
+ create mode 100644 resources/ios/splash/Default-Portrait@2x~ipad.png
+ create mode 100644 resources/ios/splash/Default-Portrait@~ipadpro.png
+ create mode 100644 resources/ios/splash/Default-Portrait~ipad.png
+ create mode 100644 resources/ios/splash/Default@2x~iphone.png
+ create mode 100644 resources/ios/splash/Default@2x~universal~anyany.png
+ create mode 100644 resources/ios/splash/Default~iphone.png
+ create mode 100644 resources/splash.png
+ create mode 100644 resources/splash.png.md5
+ create mode 100644 src/Model/place.model.ts
+ create mode 100644 src/app/auth/login/login.module.ts
+ create mode 100644 src/app/auth/login/login.page.html
+ create mode 100644 src/app/auth/login/login.page.scss
+ create mode 100644 src/app/auth/login/login.page.spec.ts
+ create mode 100644 src/app/auth/login/login.page.ts
+ create mode 100644 src/app/auth/register/register.module.ts
+ create mode 100644 src/app/auth/register/register.page.html
+ create mode 100644 src/app/auth/register/register.page.scss
+ create mode 100644 src/app/auth/register/register.page.spec.ts
+ create mode 100644 src/app/auth/register/register.page.ts
+ create mode 100644 src/app/guard/auth.guard.spec.ts
+ create mode 100644 src/app/guard/auth.guard.ts
+ create mode 100644 src/app/interceptors/token.interceptor.ts
+ create mode 100644 src/app/models/RequestStatus.ts
+ create mode 100644 src/app/models/sqliteMock.ts
+ create mode 100644 src/app/models/user.ts
+ create mode 100644 src/app/new-place/new-place.module.ts
+ create mode 100644 src/app/new-place/new-place.page.html
+ create mode 100644 src/app/new-place/new-place.page.scss
+ create mode 100644 src/app/new-place/new-place.page.spec.ts
+ create mode 100644 src/app/new-place/new-place.page.ts
+ create mode 100644 src/app/pages/auth/get-users/get-users.module.ts
+ create mode 100644 src/app/pages/auth/get-users/get-users.page.html
+ create mode 100644 src/app/pages/auth/get-users/get-users.page.scss
+ create mode 100644 src/app/pages/auth/get-users/get-users.page.spec.ts
+ create mode 100644 src/app/pages/auth/get-users/get-users.page.ts
+ create mode 100644 src/app/pages/auth/login/login.module.ts
+ create mode 100644 src/app/pages/auth/login/login.page.html
+ create mode 100644 src/app/pages/auth/login/login.page.scss
+ create mode 100644 src/app/pages/auth/login/login.page.spec.ts
+ create mode 100644 src/app/pages/auth/login/login.page.ts
+ create mode 100644 src/app/pages/auth/register/register.module.ts
+ create mode 100644 src/app/pages/auth/register/register.page.html
+ create mode 100644 src/app/pages/auth/register/register.page.scss
+ create mode 100644 src/app/pages/auth/register/register.page.spec.ts
+ create mode 100644 src/app/pages/auth/register/register.page.ts
+ create mode 100644 src/app/pages/dashboard/dashboard.module.ts
+ create mode 100644 src/app/pages/dashboard/dashboard.page.html
+ create mode 100644 src/app/pages/dashboard/dashboard.page.scss
+ create mode 100644 src/app/pages/dashboard/dashboard.page.spec.ts
+ create mode 100644 src/app/pages/dashboard/dashboard.page.ts
+ create mode 100644 src/app/pages/developer/developer.module.ts
+ create mode 100644 src/app/pages/developer/developer.page.html
+ create mode 100644 src/app/pages/developer/developer.page.scss
+ create mode 100644 src/app/pages/developer/developer.page.spec.ts
+ create mode 100644 src/app/pages/developer/developer.page.ts
+ create mode 100644 src/app/pages/developers/developers.module.ts
+ create mode 100644 src/app/pages/developers/developers.page.html
+ create mode 100644 src/app/pages/developers/developers.page.scss
+ create mode 100644 src/app/pages/developers/developers.page.spec.ts
+ create mode 100644 src/app/pages/developers/developers.page.ts
+ create mode 100644 src/app/pages/landing/landing.module.ts
+ create mode 100644 src/app/pages/landing/landing.page.html
+ create mode 100644 src/app/pages/landing/landing.page.scss
+ create mode 100644 src/app/pages/landing/landing.page.spec.ts
+ create mode 100644 src/app/pages/landing/landing.page.ts
+ create mode 100644 src/app/pages/photo/photo.module.ts
+ create mode 100644 src/app/pages/photo/photo.page.html
+ create mode 100644 src/app/pages/photo/photo.page.scss
+ create mode 100644 src/app/pages/photo/photo.page.spec.ts
+ create mode 100644 src/app/pages/photo/photo.page.ts
+ create mode 100644 src/app/place/place.module.ts
+ create mode 100644 src/app/place/place.page.html
+ create mode 100644 src/app/place/place.page.scss
+ create mode 100644 src/app/place/place.page.spec.ts
+ create mode 100644 src/app/place/place.page.ts
+ create mode 100644 src/app/services/alert.service.spec.ts
+ create mode 100644 src/app/services/alert.service.ts
+ create mode 100644 src/app/services/auth.service.spec.ts
+ create mode 100644 src/app/services/auth.service.ts
+ create mode 100644 src/app/services/database.service.spec.ts
+ create mode 100644 src/app/services/database.service.ts
+ create mode 100644 src/app/services/env.service.spec.ts
+ create mode 100644 src/app/services/env.service.ts
+ create mode 100644 src/app/splash/splash.module.ts
+ create mode 100644 src/app/splash/splash.page.html
+ create mode 100644 src/app/splash/splash.page.scss
+ create mode 100644 src/app/splash/splash.page.spec.ts
+ create mode 100644 src/app/splash/splash.page.ts
+ create mode 100644 src/assets/img/Agricultural-Biologicals-Testing.jpg
+ create mode 100644 src/assets/img/agricultural-biologicals.png
+ create mode 100644 src/assets/img/img3.jpg
+ create mode 100644 src/assets/seed.sql
+ create mode 100644 src/services/places.service.ts
+ create mode 100644 typings/cordova-typings.d.ts
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git status
+On branch firstIonicBranch
+nothing to commit, working tree clean
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git checkout master
+Switched to branch 'master'
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git merge firstIonicBranch
+Updating 2d1e5ed..3f44e68
+Fast-forward
+ config.xml                                         |   89 +
+ ionic.config.json                                  |    4 +-
+ package-lock.json                                  | 2045 +++++++++++++++++---
+ package.json                                       |   79 +-
+ resources/README.md                                |    8 +
+ resources/android/icon/drawable-hdpi-icon.png      |  Bin 0 -> 2875 bytes
+ resources/android/icon/drawable-ldpi-icon.png      |  Bin 0 -> 1155 bytes
+ resources/android/icon/drawable-mdpi-icon.png      |  Bin 0 -> 1802 bytes
+ resources/android/icon/drawable-xhdpi-icon.png     |  Bin 0 -> 4317 bytes
+ resources/android/icon/drawable-xxhdpi-icon.png    |  Bin 0 -> 7793 bytes
+ resources/android/icon/drawable-xxxhdpi-icon.png   |  Bin 0 -> 11783 bytes
+ .../android/splash/drawable-land-hdpi-screen.png   |  Bin 0 -> 13657 bytes
+ .../android/splash/drawable-land-ldpi-screen.png   |  Bin 0 -> 3740 bytes
+ .../android/splash/drawable-land-mdpi-screen.png   |  Bin 0 -> 7116 bytes
+ .../android/splash/drawable-land-xhdpi-screen.png  |  Bin 0 -> 39781 bytes
+ .../android/splash/drawable-land-xxhdpi-screen.png |  Bin 0 -> 58987 bytes
+ .../splash/drawable-land-xxxhdpi-screen.png        |  Bin 0 -> 89363 bytes
+ .../android/splash/drawable-port-hdpi-screen.png   |  Bin 0 -> 13298 bytes
+ .../android/splash/drawable-port-ldpi-screen.png   |  Bin 0 -> 3628 bytes
+ .../android/splash/drawable-port-mdpi-screen.png   |  Bin 0 -> 7214 bytes
+ .../android/splash/drawable-port-xhdpi-screen.png  |  Bin 0 -> 38625 bytes
+ .../android/splash/drawable-port-xxhdpi-screen.png |  Bin 0 -> 55504 bytes
+ .../splash/drawable-port-xxxhdpi-screen.png        |  Bin 0 -> 81831 bytes
+ resources/android/xml/network_security_config.xml  |    6 +
+ resources/icon.png                                 |  Bin 0 -> 60857 bytes
+ resources/icon.png.md5                             |    1 +
+ resources/ios/icon/icon-1024.png                   |  Bin 0 -> 83403 bytes
+ resources/ios/icon/icon-40.png                     |  Bin 0 -> 1564 bytes
+ resources/ios/icon/icon-40@2x.png                  |  Bin 0 -> 6636 bytes
+ resources/ios/icon/icon-40@3x.png                  |  Bin 0 -> 10753 bytes
+ resources/ios/icon/icon-50.png                     |  Bin 0 -> 2263 bytes
+ resources/ios/icon/icon-50@2x.png                  |  Bin 0 -> 8738 bytes
+ resources/ios/icon/icon-60.png                     |  Bin 0 -> 4626 bytes
+ resources/ios/icon/icon-60@2x.png                  |  Bin 0 -> 10753 bytes
+ resources/ios/icon/icon-60@3x.png                  |  Bin 0 -> 17785 bytes
+ resources/ios/icon/icon-72.png                     |  Bin 0 -> 5369 bytes
+ resources/ios/icon/icon-72@2x.png                  |  Bin 0 -> 13617 bytes
+ resources/ios/icon/icon-76.png                     |  Bin 0 -> 6178 bytes
+ resources/ios/icon/icon-76@2x.png                  |  Bin 0 -> 14489 bytes
+ resources/ios/icon/icon-83.5@2x.png                |  Bin 0 -> 16340 bytes
+ resources/ios/icon/icon-small.png                  |  Bin 0 -> 1167 bytes
+ resources/ios/icon/icon-small@2x.png               |  Bin 0 -> 2611 bytes
+ resources/ios/icon/icon-small@3x.png               |  Bin 0 -> 7216 bytes
+ resources/ios/icon/icon.png                        |  Bin 0 -> 2415 bytes
+ resources/ios/icon/icon@2x.png                     |  Bin 0 -> 10446 bytes
+ resources/ios/splash/Default-568h@2x~iphone.png    |  Bin 0 -> 40477 bytes
+ resources/ios/splash/Default-667h.png              |  Bin 0 -> 48785 bytes
+ resources/ios/splash/Default-736h.png              |  Bin 0 -> 105935 bytes
+ resources/ios/splash/Default-Landscape-736h.png    |  Bin 0 -> 109490 bytes
+ resources/ios/splash/Default-Landscape@2x~ipad.png |  Bin 0 -> 119111 bytes
+ .../ios/splash/Default-Landscape@~ipadpro.png      |  Bin 0 -> 67567 bytes
+ resources/ios/splash/Default-Landscape~ipad.png    |  Bin 0 -> 44175 bytes
+ resources/ios/splash/Default-Portrait@2x~ipad.png  |  Bin 0 -> 116198 bytes
+ resources/ios/splash/Default-Portrait@~ipadpro.png |  Bin 0 -> 67346 bytes
+ resources/ios/splash/Default-Portrait~ipad.png     |  Bin 0 -> 43168 bytes
+ resources/ios/splash/Default@2x~iphone.png         |  Bin 0 -> 26112 bytes
+ .../ios/splash/Default@2x~universal~anyany.png     |  Bin 0 -> 90945 bytes
+ resources/ios/splash/Default~iphone.png            |  Bin 0 -> 10076 bytes
+ resources/splash.png                               |  Bin 0 -> 78688 bytes
+ resources/splash.png.md5                           |    1 +
+ src/Model/place.model.ts                           |    7 +
+ src/app/app-routing.module.ts                      |   31 +
+ src/app/app.component.html                         |   17 +-
+ src/app/app.component.ts                           |    2 +
+ src/app/app.module.ts                              |   71 +-
+ src/app/auth/login/login.module.ts                 |   26 +
+ src/app/auth/login/login.page.html                 |   31 +
+ src/app/auth/login/login.page.scss                 |    0
+ src/app/auth/login/login.page.spec.ts              |   27 +
+ src/app/auth/login/login.page.ts                   |   52 +
+ src/app/auth/register/register.module.ts           |   26 +
+ src/app/auth/register/register.page.html           |   33 +
+ src/app/auth/register/register.page.scss           |    0
+ src/app/auth/register/register.page.spec.ts        |   27 +
+ src/app/auth/register/register.page.ts             |   60 +
+ src/app/guard/auth.guard.spec.ts                   |   15 +
+ src/app/guard/auth.guard.ts                        |   33 +
+ src/app/home/home.module.ts                        |   10 +-
+ src/app/home/home.page.html                        |   53 +-
+ src/app/home/home.page.scss                        |   29 +
+ src/app/home/home.page.ts                          |   62 +
+ src/app/interceptors/token.interceptor.ts          |   79 +
+ src/app/models/RequestStatus.ts                    |    6 +
+ src/app/models/sqliteMock.ts                       |   14 +
+ src/app/models/user.ts                             |   12 +
+ src/app/new-place/new-place.module.ts              |   26 +
+ src/app/new-place/new-place.page.html              |   42 +
+ src/app/new-place/new-place.page.scss              |    0
+ src/app/new-place/new-place.page.spec.ts           |   27 +
+ src/app/new-place/new-place.page.ts                |   56 +
+ src/app/pages/auth/get-users/get-users.module.ts   |   26 +
+ src/app/pages/auth/get-users/get-users.page.html   |   62 +
+ src/app/pages/auth/get-users/get-users.page.scss   |    0
+ .../pages/auth/get-users/get-users.page.spec.ts    |   27 +
+ src/app/pages/auth/get-users/get-users.page.ts     |   45 +
+ src/app/pages/auth/login/login.module.ts           |   29 +
+ src/app/pages/auth/login/login.page.html           |   32 +
+ src/app/pages/auth/login/login.page.scss           |    0
+ src/app/pages/auth/login/login.page.spec.ts        |   27 +
+ src/app/pages/auth/login/login.page.ts             |   52 +
+ src/app/pages/auth/register/register.module.ts     |   29 +
+ src/app/pages/auth/register/register.page.html     |   43 +
+ src/app/pages/auth/register/register.page.scss     |    0
+ src/app/pages/auth/register/register.page.spec.ts  |   27 +
+ src/app/pages/auth/register/register.page.ts       |  142 ++
+ src/app/pages/dashboard/dashboard.module.ts        |   26 +
+ src/app/pages/dashboard/dashboard.page.html        |   13 +
+ src/app/pages/dashboard/dashboard.page.scss        |    0
+ src/app/pages/dashboard/dashboard.page.spec.ts     |   27 +
+ src/app/pages/dashboard/dashboard.page.ts          |   25 +
+ src/app/pages/developer/developer.module.ts        |   26 +
+ src/app/pages/developer/developer.page.html        |   31 +
+ src/app/pages/developer/developer.page.scss        |    0
+ src/app/pages/developer/developer.page.spec.ts     |   27 +
+ src/app/pages/developer/developer.page.ts          |   88 +
+ src/app/pages/developers/developers.module.ts      |   26 +
+ src/app/pages/developers/developers.page.html      |   85 +
+ src/app/pages/developers/developers.page.scss      |    0
+ src/app/pages/developers/developers.page.spec.ts   |   27 +
+ src/app/pages/developers/developers.page.ts        |   94 +
+ src/app/pages/landing/landing.module.ts            |   25 +
+ src/app/pages/landing/landing.page.html            |  102 +
+ src/app/pages/landing/landing.page.scss            |    6 +
+ src/app/pages/landing/landing.page.spec.ts         |   27 +
+ src/app/pages/landing/landing.page.ts              |   58 +
+ src/app/pages/photo/photo.module.ts                |   26 +
+ src/app/pages/photo/photo.page.html                |   29 +
+ src/app/pages/photo/photo.page.scss                |    0
+ src/app/pages/photo/photo.page.spec.ts             |   27 +
+ src/app/pages/photo/photo.page.ts                  |  268 +++
+ src/app/place/place.module.ts                      |   27 +
+ src/app/place/place.page.html                      |   29 +
+ src/app/place/place.page.scss                      |    3 +
+ src/app/place/place.page.spec.ts                   |   27 +
+ src/app/place/place.page.ts                        |   44 +
+ src/app/services/alert.service.spec.ts             |   12 +
+ src/app/services/alert.service.ts                  |   31 +
+ src/app/services/auth.service.spec.ts              |   12 +
+ src/app/services/auth.service.ts                   |  145 ++
+ src/app/services/database.service.spec.ts          |   12 +
+ src/app/services/database.service.ts               |  209 ++
+ src/app/services/env.service.spec.ts               |   12 +
+ src/app/services/env.service.ts                    |   10 +
+ src/app/splash/splash.module.ts                    |   26 +
+ src/app/splash/splash.page.html                    |    1 +
+ src/app/splash/splash.page.scss                    |   31 +
+ src/app/splash/splash.page.spec.ts                 |   27 +
+ src/app/splash/splash.page.ts                      |   15 +
+ .../img/Agricultural-Biologicals-Testing.jpg       |  Bin 0 -> 183303 bytes
+ src/assets/img/agricultural-biologicals.png        |  Bin 0 -> 381383 bytes
+ src/assets/img/img3.jpg                            |  Bin 0 -> 39563 bytes
+ src/assets/seed.sql                                |   12 +
+ src/global.scss                                    |    2 +
+ src/index.html                                     |    1 +
+ src/main.ts                                        |    2 +-
+ src/services/places.service.ts                     |   35 +
+ src/theme/variables.scss                           |   15 +
+ typings/cordova-typings.d.ts                       |    3 +
+ 158 files changed, 5210 insertions(+), 244 deletions(-)
+ create mode 100644 config.xml
+ create mode 100644 resources/README.md
+ create mode 100644 resources/android/icon/drawable-hdpi-icon.png
+ create mode 100644 resources/android/icon/drawable-ldpi-icon.png
+ create mode 100644 resources/android/icon/drawable-mdpi-icon.png
+ create mode 100644 resources/android/icon/drawable-xhdpi-icon.png
+ create mode 100644 resources/android/icon/drawable-xxhdpi-icon.png
+ create mode 100644 resources/android/icon/drawable-xxxhdpi-icon.png
+ create mode 100644 resources/android/splash/drawable-land-hdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-ldpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-mdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-xhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-xxhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-xxxhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-hdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-ldpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-mdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-xhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-xxhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-xxxhdpi-screen.png
+ create mode 100644 resources/android/xml/network_security_config.xml
+ create mode 100644 resources/icon.png
+ create mode 100644 resources/icon.png.md5
+ create mode 100644 resources/ios/icon/icon-1024.png
+ create mode 100644 resources/ios/icon/icon-40.png
+ create mode 100644 resources/ios/icon/icon-40@2x.png
+ create mode 100644 resources/ios/icon/icon-40@3x.png
+ create mode 100644 resources/ios/icon/icon-50.png
+ create mode 100644 resources/ios/icon/icon-50@2x.png
+ create mode 100644 resources/ios/icon/icon-60.png
+ create mode 100644 resources/ios/icon/icon-60@2x.png
+ create mode 100644 resources/ios/icon/icon-60@3x.png
+ create mode 100644 resources/ios/icon/icon-72.png
+ create mode 100644 resources/ios/icon/icon-72@2x.png
+ create mode 100644 resources/ios/icon/icon-76.png
+ create mode 100644 resources/ios/icon/icon-76@2x.png
+ create mode 100644 resources/ios/icon/icon-83.5@2x.png
+ create mode 100644 resources/ios/icon/icon-small.png
+ create mode 100644 resources/ios/icon/icon-small@2x.png
+ create mode 100644 resources/ios/icon/icon-small@3x.png
+ create mode 100644 resources/ios/icon/icon.png
+ create mode 100644 resources/ios/icon/icon@2x.png
+ create mode 100644 resources/ios/splash/Default-568h@2x~iphone.png
+ create mode 100644 resources/ios/splash/Default-667h.png
+ create mode 100644 resources/ios/splash/Default-736h.png
+ create mode 100644 resources/ios/splash/Default-Landscape-736h.png
+ create mode 100644 resources/ios/splash/Default-Landscape@2x~ipad.png
+ create mode 100644 resources/ios/splash/Default-Landscape@~ipadpro.png
+ create mode 100644 resources/ios/splash/Default-Landscape~ipad.png
+ create mode 100644 resources/ios/splash/Default-Portrait@2x~ipad.png
+ create mode 100644 resources/ios/splash/Default-Portrait@~ipadpro.png
+ create mode 100644 resources/ios/splash/Default-Portrait~ipad.png
+ create mode 100644 resources/ios/splash/Default@2x~iphone.png
+ create mode 100644 resources/ios/splash/Default@2x~universal~anyany.png
+ create mode 100644 resources/ios/splash/Default~iphone.png
+ create mode 100644 resources/splash.png
+ create mode 100644 resources/splash.png.md5
+ create mode 100644 src/Model/place.model.ts
+ create mode 100644 src/app/auth/login/login.module.ts
+ create mode 100644 src/app/auth/login/login.page.html
+ create mode 100644 src/app/auth/login/login.page.scss
+ create mode 100644 src/app/auth/login/login.page.spec.ts
+ create mode 100644 src/app/auth/login/login.page.ts
+ create mode 100644 src/app/auth/register/register.module.ts
+ create mode 100644 src/app/auth/register/register.page.html
+ create mode 100644 src/app/auth/register/register.page.scss
+ create mode 100644 src/app/auth/register/register.page.spec.ts
+ create mode 100644 src/app/auth/register/register.page.ts
+ create mode 100644 src/app/guard/auth.guard.spec.ts
+ create mode 100644 src/app/guard/auth.guard.ts
+ create mode 100644 src/app/interceptors/token.interceptor.ts
+ create mode 100644 src/app/models/RequestStatus.ts
+ create mode 100644 src/app/models/sqliteMock.ts
+ create mode 100644 src/app/models/user.ts
+ create mode 100644 src/app/new-place/new-place.module.ts
+ create mode 100644 src/app/new-place/new-place.page.html
+ create mode 100644 src/app/new-place/new-place.page.scss
+ create mode 100644 src/app/new-place/new-place.page.spec.ts
+ create mode 100644 src/app/new-place/new-place.page.ts
+ create mode 100644 src/app/pages/auth/get-users/get-users.module.ts
+ create mode 100644 src/app/pages/auth/get-users/get-users.page.html
+ create mode 100644 src/app/pages/auth/get-users/get-users.page.scss
+ create mode 100644 src/app/pages/auth/get-users/get-users.page.spec.ts
+ create mode 100644 src/app/pages/auth/get-users/get-users.page.ts
+ create mode 100644 src/app/pages/auth/login/login.module.ts
+ create mode 100644 src/app/pages/auth/login/login.page.html
+ create mode 100644 src/app/pages/auth/login/login.page.scss
+ create mode 100644 src/app/pages/auth/login/login.page.spec.ts
+ create mode 100644 src/app/pages/auth/login/login.page.ts
+ create mode 100644 src/app/pages/auth/register/register.module.ts
+ create mode 100644 src/app/pages/auth/register/register.page.html
+ create mode 100644 src/app/pages/auth/register/register.page.scss
+ create mode 100644 src/app/pages/auth/register/register.page.spec.ts
+ create mode 100644 src/app/pages/auth/register/register.page.ts
+ create mode 100644 src/app/pages/dashboard/dashboard.module.ts
+ create mode 100644 src/app/pages/dashboard/dashboard.page.html
+ create mode 100644 src/app/pages/dashboard/dashboard.page.scss
+ create mode 100644 src/app/pages/dashboard/dashboard.page.spec.ts
+ create mode 100644 src/app/pages/dashboard/dashboard.page.ts
+ create mode 100644 src/app/pages/developer/developer.module.ts
+ create mode 100644 src/app/pages/developer/developer.page.html
+ create mode 100644 src/app/pages/developer/developer.page.scss
+ create mode 100644 src/app/pages/developer/developer.page.spec.ts
+ create mode 100644 src/app/pages/developer/developer.page.ts
+ create mode 100644 src/app/pages/developers/developers.module.ts
+ create mode 100644 src/app/pages/developers/developers.page.html
+ create mode 100644 src/app/pages/developers/developers.page.scss
+ create mode 100644 src/app/pages/developers/developers.page.spec.ts
+ create mode 100644 src/app/pages/developers/developers.page.ts
+ create mode 100644 src/app/pages/landing/landing.module.ts
+ create mode 100644 src/app/pages/landing/landing.page.html
+ create mode 100644 src/app/pages/landing/landing.page.scss
+ create mode 100644 src/app/pages/landing/landing.page.spec.ts
+ create mode 100644 src/app/pages/landing/landing.page.ts
+ create mode 100644 src/app/pages/photo/photo.module.ts
+ create mode 100644 src/app/pages/photo/photo.page.html
+ create mode 100644 src/app/pages/photo/photo.page.scss
+ create mode 100644 src/app/pages/photo/photo.page.spec.ts
+ create mode 100644 src/app/pages/photo/photo.page.ts
+ create mode 100644 src/app/place/place.module.ts
+ create mode 100644 src/app/place/place.page.html
+ create mode 100644 src/app/place/place.page.scss
+ create mode 100644 src/app/place/place.page.spec.ts
+ create mode 100644 src/app/place/place.page.ts
+ create mode 100644 src/app/services/alert.service.spec.ts
+ create mode 100644 src/app/services/alert.service.ts
+ create mode 100644 src/app/services/auth.service.spec.ts
+ create mode 100644 src/app/services/auth.service.ts
+ create mode 100644 src/app/services/database.service.spec.ts
+ create mode 100644 src/app/services/database.service.ts
+ create mode 100644 src/app/services/env.service.spec.ts
+ create mode 100644 src/app/services/env.service.ts
+ create mode 100644 src/app/splash/splash.module.ts
+ create mode 100644 src/app/splash/splash.page.html
+ create mode 100644 src/app/splash/splash.page.scss
+ create mode 100644 src/app/splash/splash.page.spec.ts
+ create mode 100644 src/app/splash/splash.page.ts
+ create mode 100644 src/assets/img/Agricultural-Biologicals-Testing.jpg
+ create mode 100644 src/assets/img/agricultural-biologicals.png
+ create mode 100644 src/assets/img/img3.jpg
+ create mode 100644 src/assets/seed.sql
+ create mode 100644 src/services/places.service.ts
+ create mode 100644 typings/cordova-typings.d.ts
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git remote add origin git@github.com:avinash51581/Ionic_demo.git
+fatal: remote origin already exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git checkout firstIonicBranch
+Switched to branch 'firstIonicBranch'
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git status
+On branch firstIonicBranch
+nothing to commit, working tree clean
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git push -u origin firstIonicBranch
+The authenticity of host 'github.com (13.234.176.102)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? n
+Please type 'yes' or 'no': no
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files (x86)/Git/mingw32/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+pack.packsizelimit=2g
+user.email=avinashgawali11@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=git@github.com:avinash51581/Ionic_demo.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git push -u origin firstIonicBranch
+The authenticity of host 'github.com (13.234.176.102)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,13.234.176.102' (RSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git push -u Ionic_demo firstIonicBranch
+fatal: 'Ionic_demo' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git push -u
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git push -u git@github.com:avinash51581/Ionic_demo.git
+Warning: Permanently added the RSA host key for IP address '13.234.210.38' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git push -u git@github.com:avinash51581/Ionic_demo.git firstIonicBranch
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git push -u git@github.com:avinash51581/Ionic_demo.git firstIonicBranch
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git branches
+git: 'branches' is not a git command. See 'git --help'.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git branch
+* firstIonicBranch
+  master
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git branch -a
+* firstIonicBranch
+  master
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git chekout master
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (firstIonicBranch)
+$ git checkout master
+Switched to branch 'master'
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git push nabard master
+fatal: 'nabard' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git push origin master
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git push origin master -f
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git pull
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ cd ..
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK
+$ git clone https://github.com:avinash51581/Ionic_demo.git
+Cloning into 'Ionic_demo'...
+fatal: unable to access 'https://github.com:avinash51581/Ionic_demo.git/': Port number ended with 'a'
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK
+$ cd NABARD/
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git remote add origin https://github.com/avinash51581/Ionic_demo.git
+fatal: remote origin already exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git push -f origin master
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git remote
+origin
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$
+
+
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$
+
+
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD
+$
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD
+$
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD
+$ git remote add origin https://github.com/avinash51581/Ionic_demo.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD
+$ git init
+Initialized empty Git repository in S:/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD/.git/
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git remote add origin https://github.com/avinash51581/Ionic_demo.git
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$
+
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/tsconfig.e2e.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/home/home.page.spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/assets/shapes.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/karma.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.app.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.spec.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tslint.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/zone-flags.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git commit -m
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git commit -m "init"
+[master (root-commit) 8195ba2] init
+ 179 files changed, 16594 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 angular.json
+ create mode 100644 config.xml
+ create mode 100644 e2e/protractor.conf.js
+ create mode 100644 e2e/src/app.e2e-spec.ts
+ create mode 100644 e2e/src/app.po.ts
+ create mode 100644 e2e/tsconfig.e2e.json
+ create mode 100644 ionic.config.json
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 resources/README.md
+ create mode 100644 resources/android/icon/drawable-hdpi-icon.png
+ create mode 100644 resources/android/icon/drawable-ldpi-icon.png
+ create mode 100644 resources/android/icon/drawable-mdpi-icon.png
+ create mode 100644 resources/android/icon/drawable-xhdpi-icon.png
+ create mode 100644 resources/android/icon/drawable-xxhdpi-icon.png
+ create mode 100644 resources/android/icon/drawable-xxxhdpi-icon.png
+ create mode 100644 resources/android/splash/drawable-land-hdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-ldpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-mdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-xhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-xxhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-land-xxxhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-hdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-ldpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-mdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-xhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-xxhdpi-screen.png
+ create mode 100644 resources/android/splash/drawable-port-xxxhdpi-screen.png
+ create mode 100644 resources/android/xml/network_security_config.xml
+ create mode 100644 resources/icon.png
+ create mode 100644 resources/icon.png.md5
+ create mode 100644 resources/ios/icon/icon-1024.png
+ create mode 100644 resources/ios/icon/icon-40.png
+ create mode 100644 resources/ios/icon/icon-40@2x.png
+ create mode 100644 resources/ios/icon/icon-40@3x.png
+ create mode 100644 resources/ios/icon/icon-50.png
+ create mode 100644 resources/ios/icon/icon-50@2x.png
+ create mode 100644 resources/ios/icon/icon-60.png
+ create mode 100644 resources/ios/icon/icon-60@2x.png
+ create mode 100644 resources/ios/icon/icon-60@3x.png
+ create mode 100644 resources/ios/icon/icon-72.png
+ create mode 100644 resources/ios/icon/icon-72@2x.png
+ create mode 100644 resources/ios/icon/icon-76.png
+ create mode 100644 resources/ios/icon/icon-76@2x.png
+ create mode 100644 resources/ios/icon/icon-83.5@2x.png
+ create mode 100644 resources/ios/icon/icon-small.png
+ create mode 100644 resources/ios/icon/icon-small@2x.png
+ create mode 100644 resources/ios/icon/icon-small@3x.png
+ create mode 100644 resources/ios/icon/icon.png
+ create mode 100644 resources/ios/icon/icon@2x.png
+ create mode 100644 resources/ios/splash/Default-568h@2x~iphone.png
+ create mode 100644 resources/ios/splash/Default-667h.png
+ create mode 100644 resources/ios/splash/Default-736h.png
+ create mode 100644 resources/ios/splash/Default-Landscape-736h.png
+ create mode 100644 resources/ios/splash/Default-Landscape@2x~ipad.png
+ create mode 100644 resources/ios/splash/Default-Landscape@~ipadpro.png
+ create mode 100644 resources/ios/splash/Default-Landscape~ipad.png
+ create mode 100644 resources/ios/splash/Default-Portrait@2x~ipad.png
+ create mode 100644 resources/ios/splash/Default-Portrait@~ipadpro.png
+ create mode 100644 resources/ios/splash/Default-Portrait~ipad.png
+ create mode 100644 resources/ios/splash/Default@2x~iphone.png
+ create mode 100644 resources/ios/splash/Default@2x~universal~anyany.png
+ create mode 100644 resources/ios/splash/Default~iphone.png
+ create mode 100644 resources/splash.png
+ create mode 100644 resources/splash.png.md5
+ create mode 100644 src/Model/place.model.ts
+ create mode 100644 src/app/app-routing.module.ts
+ create mode 100644 src/app/app.component.html
+ create mode 100644 src/app/app.component.spec.ts
+ create mode 100644 src/app/app.component.ts
+ create mode 100644 src/app/app.module.ts
+ create mode 100644 src/app/auth/login/login.module.ts
+ create mode 100644 src/app/auth/login/login.page.html
+ create mode 100644 src/app/auth/login/login.page.scss
+ create mode 100644 src/app/auth/login/login.page.spec.ts
+ create mode 100644 src/app/auth/login/login.page.ts
+ create mode 100644 src/app/auth/register/register.module.ts
+ create mode 100644 src/app/auth/register/register.page.html
+ create mode 100644 src/app/auth/register/register.page.scss
+ create mode 100644 src/app/auth/register/register.page.spec.ts
+ create mode 100644 src/app/auth/register/register.page.ts
+ create mode 100644 src/app/guard/auth.guard.spec.ts
+ create mode 100644 src/app/guard/auth.guard.ts
+ create mode 100644 src/app/home/home.module.ts
+ create mode 100644 src/app/home/home.page.html
+ create mode 100644 src/app/home/home.page.scss
+ create mode 100644 src/app/home/home.page.spec.ts
+ create mode 100644 src/app/home/home.page.ts
+ create mode 100644 src/app/interceptors/token.interceptor.ts
+ create mode 100644 src/app/models/RequestStatus.ts
+ create mode 100644 src/app/models/sqliteMock.ts
+ create mode 100644 src/app/models/user.ts
+ create mode 100644 src/app/new-place/new-place.module.ts
+ create mode 100644 src/app/new-place/new-place.page.html
+ create mode 100644 src/app/new-place/new-place.page.scss
+ create mode 100644 src/app/new-place/new-place.page.spec.ts
+ create mode 100644 src/app/new-place/new-place.page.ts
+ create mode 100644 src/app/pages/auth/get-users/get-users.module.ts
+ create mode 100644 src/app/pages/auth/get-users/get-users.page.html
+ create mode 100644 src/app/pages/auth/get-users/get-users.page.scss
+ create mode 100644 src/app/pages/auth/get-users/get-users.page.spec.ts
+ create mode 100644 src/app/pages/auth/get-users/get-users.page.ts
+ create mode 100644 src/app/pages/auth/login/login.module.ts
+ create mode 100644 src/app/pages/auth/login/login.page.html
+ create mode 100644 src/app/pages/auth/login/login.page.scss
+ create mode 100644 src/app/pages/auth/login/login.page.spec.ts
+ create mode 100644 src/app/pages/auth/login/login.page.ts
+ create mode 100644 src/app/pages/auth/register/register.module.ts
+ create mode 100644 src/app/pages/auth/register/register.page.html
+ create mode 100644 src/app/pages/auth/register/register.page.scss
+ create mode 100644 src/app/pages/auth/register/register.page.spec.ts
+ create mode 100644 src/app/pages/auth/register/register.page.ts
+ create mode 100644 src/app/pages/dashboard/dashboard.module.ts
+ create mode 100644 src/app/pages/dashboard/dashboard.page.html
+ create mode 100644 src/app/pages/dashboard/dashboard.page.scss
+ create mode 100644 src/app/pages/dashboard/dashboard.page.spec.ts
+ create mode 100644 src/app/pages/dashboard/dashboard.page.ts
+ create mode 100644 src/app/pages/developer/developer.module.ts
+ create mode 100644 src/app/pages/developer/developer.page.html
+ create mode 100644 src/app/pages/developer/developer.page.scss
+ create mode 100644 src/app/pages/developer/developer.page.spec.ts
+ create mode 100644 src/app/pages/developer/developer.page.ts
+ create mode 100644 src/app/pages/developers/developers.module.ts
+ create mode 100644 src/app/pages/developers/developers.page.html
+ create mode 100644 src/app/pages/developers/developers.page.scss
+ create mode 100644 src/app/pages/developers/developers.page.spec.ts
+ create mode 100644 src/app/pages/developers/developers.page.ts
+ create mode 100644 src/app/pages/landing/landing.module.ts
+ create mode 100644 src/app/pages/landing/landing.page.html
+ create mode 100644 src/app/pages/landing/landing.page.scss
+ create mode 100644 src/app/pages/landing/landing.page.spec.ts
+ create mode 100644 src/app/pages/landing/landing.page.ts
+ create mode 100644 src/app/pages/photo/photo.module.ts
+ create mode 100644 src/app/pages/photo/photo.page.html
+ create mode 100644 src/app/pages/photo/photo.page.scss
+ create mode 100644 src/app/pages/photo/photo.page.spec.ts
+ create mode 100644 src/app/pages/photo/photo.page.ts
+ create mode 100644 src/app/place/place.module.ts
+ create mode 100644 src/app/place/place.page.html
+ create mode 100644 src/app/place/place.page.scss
+ create mode 100644 src/app/place/place.page.spec.ts
+ create mode 100644 src/app/place/place.page.ts
+ create mode 100644 src/app/services/alert.service.spec.ts
+ create mode 100644 src/app/services/alert.service.ts
+ create mode 100644 src/app/services/auth.service.spec.ts
+ create mode 100644 src/app/services/auth.service.ts
+ create mode 100644 src/app/services/database.service.spec.ts
+ create mode 100644 src/app/services/database.service.ts
+ create mode 100644 src/app/services/env.service.spec.ts
+ create mode 100644 src/app/services/env.service.ts
+ create mode 100644 src/app/splash/splash.module.ts
+ create mode 100644 src/app/splash/splash.page.html
+ create mode 100644 src/app/splash/splash.page.scss
+ create mode 100644 src/app/splash/splash.page.spec.ts
+ create mode 100644 src/app/splash/splash.page.ts
+ create mode 100644 src/assets/icon/favicon.png
+ create mode 100644 src/assets/img/Agricultural-Biologicals-Testing.jpg
+ create mode 100644 src/assets/img/agricultural-biologicals.png
+ create mode 100644 src/assets/img/img3.jpg
+ create mode 100644 src/assets/seed.sql
+ create mode 100644 src/assets/shapes.svg
+ create mode 100644 src/environments/environment.prod.ts
+ create mode 100644 src/environments/environment.ts
+ create mode 100644 src/global.scss
+ create mode 100644 src/index.html
+ create mode 100644 src/karma.conf.js
+ create mode 100644 src/main.ts
+ create mode 100644 src/polyfills.ts
+ create mode 100644 src/services/places.service.ts
+ create mode 100644 src/test.ts
+ create mode 100644 src/theme/variables.scss
+ create mode 100644 src/tsconfig.app.json
+ create mode 100644 src/tsconfig.spec.json
+ create mode 100644 src/tslint.json
+ create mode 100644 src/zone-flags.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 tslint.json
+ create mode 100644 typings/cordova-typings.d.ts
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ ^C
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$  git push --set-upstream origin master
+Username for 'https://github.com': avinashgawali11@gmail.com
+To https://github.com/avinash51581/Ionic_demo.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/avinash51581/Ionic_demo.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git pull
+warning: no common commits
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/avinash51581/Ionic_demo
+ * [new branch]      firstIonicBranch -> origin/firstIonicBranch
+ * [new branch]      master           -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git pull origin master
+From https://github.com/avinash51581/Ionic_demo
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$  git push --set-upstream origin master
+Username for 'https://github.com': avinashgawali11@gmail.com
+error: unable to read askpass response from 'C:/Program Files (x86)/Git/mingw32/libexec/git-core/git-gui--askpass'
+Password for 'https://avinashawawali11@gmail.com@github.com':
+
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/avinash51581/Ionic_demo.git/'
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$ git pull origin master --allow-unrelated-histories
+From https://github.com/avinash51581/Ionic_demo
+ * branch            master     -> FETCH_HEAD
+
+Merge made by the 'recursive' strategy.
+ README.md | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 README.md
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$  git push --set-upstream origin master
+Username for 'https://github.com': avinashgawali11@gmail.com
+Counting objects: 213, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (202/202), done.
+Writing objects: 100% (213/213), 2.23 MiB | 7.00 KiB/s, done.
+Total 213 (delta 38), reused 0 (delta 0)
+remote: Resolving deltas: 100% (38/38), done.
+To https://github.com/avinash51581/Ionic_demo.git
+   136f11f..28c9114  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+sai@sai-PC MINGW32 /s/I/PD2/PD2/NABARD/BLANK/BLANK/NABARD (master)
+$

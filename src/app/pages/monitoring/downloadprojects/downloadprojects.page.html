@@ -1,0 +1,110 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+    <ion-title>Download projects</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+      <ion-card>      
+          <ion-card-content>
+              <ion-note color="primary"><i>Note:Please download projects by selecting required filters.</i></ion-note>
+              <form [formGroup]="downloadForm" class="ion-padding">
+                  <!-- <ion-spinner name="circles" *ngIf="spinnerValue"> </ion-spinner> -->
+                <ion-label>State</ion-label><ion-select #refStateCode placeholder="Select State" class="form-control" (ionChange)="masterStateSelected(refStateCode.value)" formControlName="masterState" required>
+                      <ion-select-option *ngFor="let m of masterState" [value]="m.STATE_ID">
+                      {{m.STATE_NAME}}
+                      </ion-select-option>
+                </ion-select>
+              <div *ngIf="downloadForm.controls.masterState.touched">
+                   <div *ngIf="downloadForm.controls.masterState.hasError('required')" class="dvloginErrMsg" text-center>{{'Please select state'}}</div>
+              </div>
+
+              <ion-label>Implementing Department:</ion-label><ion-select #refImpDeptCode placeholder="Select Implementing Department" class="form-control" (ionChange)="masterImpDeptSelected(refImpDeptCode.value)" formControlName="masterImpDept" required>
+                <ion-select-option *ngFor="let m of masterStateImpldept" [value]="m.SD_DEPT_CODE">
+                {{m.SD_DEPT_NAME}}
+                </ion-select-option>
+          </ion-select>
+        <div *ngIf="downloadForm.controls.masterImpDept.touched">
+             <div *ngIf="downloadForm.controls.masterImpDept.hasError('required')" class="dvloginErrMsg" text-center>{{'Please select Implementing Department'}}</div>
+        </div>
+
+        
+
+              <ion-label>Sub Sector:</ion-label><ion-select #refSubSectorCode placeholder="Select Sub Sector" class="form-control" (ionChange)="masterSubSectorSelected(refSubSectorCode.value)" formControlName="masterSubSector" required>
+                  <ion-select-option *ngFor="let m of masterSubSector" [value]="m.SS_ID">
+                  {{m.SS_SUB_SECTOR_DESCN}}
+                  </ion-select-option>
+            </ion-select>
+          <div *ngIf="downloadForm.controls.masterSubSector.touched">
+               <div *ngIf="downloadForm.controls.masterSubSector.hasError('required')" class="dvloginErrMsg" text-center>{{'Please select sub sector'}}</div>
+          </div>
+
+          <ion-label>Purpose:</ion-label><ion-select #refPurposeCode placeholder="Select purpose" class="form-control" (ionChange)="masterPurposeSelected(refPurposeCode.value)" formControlName="masterPurpose" required>
+              <ion-select-option *ngFor="let m of masterPurpose" [value]="m.PP_PGM_PURP_ID">
+              {{m.PP_PGM_PURP_DESCN}}
+              </ion-select-option>
+        </ion-select>
+      <div *ngIf="downloadForm.controls.masterPurpose.touched">
+           <div *ngIf="downloadForm.controls.masterPurpose.hasError('required')" class="dvloginErrMsg" text-center>{{'Please select purpose'}}</div>
+      </div>
+          
+      
+
+      <ion-label>Activity:</ion-label><ion-select #refActivityCode placeholder="Select activity" class="form-control"   (ionChange)="masterActivitySelected(refActivityCode.value)" formControlName="masterActivity" required>
+        <ion-select-option *ngFor="let m of masterActivity" [value]="m.PA_PGM_ACT_ID">
+        {{m.PA_PGM_ACT_DESC}}
+        </ion-select-option>
+  </ion-select>
+<div *ngIf="downloadForm.controls.masterActivity.touched">
+     <div *ngIf="downloadForm.controls.masterActivity.hasError('required')" class="dvloginErrMsg" text-center>{{'Please select activity'}}</div>
+</div>
+
+
+<ion-label>Tranche:</ion-label><ion-select #refTrancheCode placeholder="Select tranche" class="form-control" formControlName="masterTranche" required>
+    <ion-select-option *ngFor="let m of masterTranche" [value]="m.TR_TRANCE_CODE">
+       TRANCH-{{m.TR_TRANCE_CODE}}
+    </ion-select-option>
+</ion-select>
+<div *ngIf="downloadForm.controls.masterTranche.touched">
+ <div *ngIf="downloadForm.controls.masterTranche.hasError('required')" class="dvloginErrMsg" text-center>{{'Please select tranche'}}</div>
+</div>
+
+
+
+
+<ion-button color="primary" expand="full" (click)="onDownloadProjectClick()" [disabled]="!downloadForm.valid">Download Projects</ion-button>              
+              </form>
+         </ion-card-content>
+      </ion-card>
+    
+
+    
+    <!-- <ion-card  text-center>
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content></ion-card-content>
+        
+      </ion-card> -->
+
+
+          
+</ion-content>
+    <!-- <div *ngFor="let m of masterState">
+
+
+            Index: {{m.STATE_NAME}}
+    </div> -->
+ 
+
+
+    

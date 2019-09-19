@@ -1,0 +1,71 @@
+<ion-app>
+   <ion-split-pane>
+    <ion-menu>
+      
+        <div class="logo-section">
+               
+            <div class="logo-section__wrapper">
+              <img class="logo-section__logo" src="assets/imgs/CDAC-Logo.png" />
+              <!-- <h3 class="logo-section__title"><i>NABARD</i></h3> -->
+              <!-- <strong>Name: </strong> {{message}}
+              <app-home (messageEvent)="receivedMessage($event)"></app-home> -->
+
+            </div>
+        </div>
+
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+          
+        <ion-list>
+          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
+            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">
+              <ion-icon slot="start" [name]="p.icon"></ion-icon>
+              <ion-label>
+                 {{p.title}}
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+
+        <ion-list>
+          <ion-menu-toggle auto-hide="false" *ngFor="let p of otherLabel">
+              <ion-label class="ion-padding menuOtherlbl" >
+                {{p.title}}
+              </ion-label>
+            
+          </ion-menu-toggle>
+        </ion-list>
+
+
+
+
+        <!-- <ion-label>Other</ion-label> -->
+
+
+        <ion-list>
+          <ion-menu-toggle auto-hide="false" *ngFor="let p of otherPages">
+            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">
+              <ion-icon slot="start" [name]="p.icon"></ion-icon>
+              <ion-label>
+                {{p.title}}
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+
+
+
+
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet main></ion-router-outlet>
+  </ion-split-pane> 
+</ion-app>
+
+
+
+

@@ -1,0 +1,143 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button> </ion-menu-button>
+          </ion-buttons>
+          <ion-title>Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content> <img class="logo-section__logo" src="assets/imgs/img3.jpg" />
+
+  <ion-row>  
+    <ion-col>
+        <ion-card class="menuCardbgcolor">
+            <ion-card-content>
+                 <ion-row>
+                   <ion-col></ion-col>
+                   <ion-col><ion-icon ios="ios-download" md="md-download"  class="viewicon" (click)="redirectToDownloadPage()" ></ion-icon></ion-col>
+                   <ion-col></ion-col>
+                 </ion-row>  
+                
+            </ion-card-content>
+          </ion-card>
+    </ion-col>
+
+    <ion-col>
+        <ion-card class="menuCardbgcolor">
+          
+            <ion-card-content>
+                <ion-row>
+                    <ion-col></ion-col>
+                <!-- <ion-icon ios="ios-eye" md="md-eye"  class="menuviewicon"></ion-icon> -->
+                <ion-col> <ion-icon ios="ios-eye" md="md-eye" class="viewicon" (click)="redirectToViewPage()"></ion-icon></ion-col>
+                <ion-col></ion-col>
+              </ion-row>
+            </ion-card-content>
+          </ion-card>
+    </ion-col>
+
+
+  </ion-row>
+
+  <ion-row>  
+      <ion-col>
+        <ion-card class="menuCardbgcolor">
+            <ion-card-content>
+                      <ion-row>
+                              <ion-col></ion-col>
+                                  <ion-icon ios="ios-create" md="md-create" class="viewicon" (click)="redirectToFillObservationPage()"></ion-icon>
+                              <ion-col></ion-col>
+                      </ion-row>
+            </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+            <ion-card  class="menuCardbgcolor">
+                  <ion-card-content>
+                      <ion-row>
+                          <ion-col></ion-col>
+                              <!-- <ion-icon ios="ios-camera" md="md-camera" class="viewicon"></ion-icon> -->
+                              <ion-icon ios="ios-photos" md="md-photos" class="viewicon" (click)="redirectToTakePhotoPage()"></ion-icon>
+                          <ion-col></ion-col>
+                      </ion-row>
+                  </ion-card-content>
+            </ion-card>
+        </ion-col>
+  </ion-row>
+
+ 
+
+  <ion-row>  
+      <ion-col>
+        <ion-card class="menuCardbgcolor">
+            <ion-card-content>
+                      <ion-row>
+                              <ion-col></ion-col>
+                                  <ion-icon ios="ios-checkmark-circle" md="md-checkmark-circle" class="viewicon" (click)="redirectToSubmitPage()"></ion-icon>
+                              <ion-col></ion-col>
+                      </ion-row>
+            </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+            <ion-card class="menuCardbgcolor">
+                  <ion-card-content>
+                      <ion-row>
+                          <ion-col></ion-col>
+                              <ion-icon ios="ios-log-out" md="md-log-out" class="viewicon" (click)="logout()"></ion-icon>
+                          <ion-col></ion-col>
+                      </ion-row>
+                  </ion-card-content>
+            </ion-card>
+        </ion-col>
+  </ion-row>
+
+ 
+
+  
+  </ion-content>
+
+<!-- <ion-tabs>
+    <ion-tab-bar slot="bottom">
+
+        <ion-tab-button tab="profile">
+            <ion-icon ios="ios-contact" md="md-contact"></ion-icon>
+            <ion-label><b>Profile</b></ion-label>
+          </ion-tab-button>
+
+      <ion-tab-button tab="about">
+        <ion-icon name="flash"></ion-icon>
+        <ion-label><b>About</b></ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="contact">
+          <ion-icon ios="ios-call" md="md-call"></ion-icon>
+        <ion-label><b>Contact</b></ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="notification">
+          <ion-icon ios="ios-notifications" md="md-notifications"></ion-icon>
+        <ion-label><b>Notifications</b></ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  
+  </ion-tabs> -->
+  <ion-footer>
+    <ion-toolbar>
+      <ion-title><b>@2019 www.nabard.com all right reserved</b></ion-title>
+    </ion-toolbar>
+  </ion-footer>
+
+  
+
+  
+
+  
+
+  
+
+
+  
+  

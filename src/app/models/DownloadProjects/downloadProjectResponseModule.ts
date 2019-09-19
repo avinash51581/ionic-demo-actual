@@ -1,0 +1,38 @@
+export class DownloadProjectResponseModule{
+  NP_PROJ_ID:any;
+  NP_PROJ_CODE:any;
+  NP_PROJ_DESCN:any;
+  NP_TRANCHE_CODE:any;
+  NP_ACNTNG_LOC_CODE:any;
+  NP_ACNTNG_STATE_CODE:any;
+  NP_ACNTNG_DIST_CODE:any;
+  NP_ACNTNG_BLOCK_CODE:any;
+  NP_ACNTNG_VILLAGE_CODE:any;
+  NRP_PURP_CODE:any;
+  NRP_PROJ_ACT_CODE:any;
+  NRP_PROJ_SUB_ACT_CODE:any;
+  NRP_REMARKS:any;
+  NRP_PLANNED_START_DATE:any;
+  NRP_PLANNED_END_DATE:any;
+  NRP_PROJ_IMPL_STATE_DEPT:any;
+  NRP_UPDATED_TOTAL_COST:any;
+  NRP_EXP_INCURRED_CUTOFF_DATE:any;
+  NRP_EXP_INCURRED_AMT:any;
+  NRP_INELIGIBLE_COST:any;
+  NRP_CONT_BY_OTH_AGENCIES:any;
+  NRP_BAL_ELIGILBE_COST:any;
+  NRP_ELIG_LOAN_AMT_ASPER_PM:any;
+  NRP_STATE_GOVT_SHARE_ACTUAL:any;
+  NRP_ELIG_LOAN_AMT_ACTUAL:any;
+  NRP_COST_OF_DEVLPMNT:any;
+  NRP_ERR_PER:any;
+  NRP_BCR:any;
+  NRP_SANC_LOAN_AMT:any;
+  NRP_SANC_GRNT_AMT:any;
+  NRP_PROPOSAL_NUMBER:any;
+
+
+    public constructor(init?: DownloadProjectResponseModule) {
+        Object.assign(this, init);
+      }
+}

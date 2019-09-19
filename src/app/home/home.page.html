@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-toolbar>
+    <!-- <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons> -->
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+   
+
+    <!-- <ion-card class="welcome-card">
+      <ion-img src="/assets/shapes.svg"></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>Get Started</ion-card-subtitle>
+        <ion-card-title>Welcome to Ionic</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Now that your app has been created, you'll want to start building out features and components. Check out some of the resources below for next steps.</p>
+      </ion-card-content>
+    </ion-card> -->
+    
+
+    <ion-card  text-center>
+        <ion-card-header>
+                    <ion-card-title></ion-card-title>
+        </ion-card-header>
+      
+
+        <ion-card-content>
+            <form [formGroup]="loginForm">
+              <ion-item>
+                <ion-label position="floating" color="primary">Username</ion-label>
+                <ion-input  type="text" formControlName="username" (paste)="false" class="form-control" autocomplete="off" required></ion-input>
+              </ion-item>
+
+                <div class="dvloginErrMsg" *ngIf="loginForm.controls.username.invalid && (loginForm.controls.username.dirty ||  loginForm.controls.username.touched || submitted)">
+                  {{getUserNameErrorMessage()}}
+                  {{clearErrorDiv()}}
+                </div>
+              <ion-item>
+                  <ion-label position="floating" color="primary">Password</ion-label>
+                  <ion-input type="password" formControlName="password" maxLength="20" (paste)="false" class="form-control" autocomplete="off" required></ion-input>
+                </ion-item>
+                <div class="dvloginErrMsg" *ngIf="loginForm.controls.password.invalid && (loginForm.controls.password.dirty ||  loginForm.controls.password.touched ||submitted)">
+                    {{getPasswordErrorMessage()}}
+                    {{clearErrorDiv()}}
+                  </div>
+                <ion-row style="height:20px"></ion-row>
+                <ion-row>
+                    <ion-radio-group class="loginRadioGrCls" formControlName="radiovalue" (click)="radioClick()">
+                        <ion-col><ion-label><b>Online</b></ion-label></ion-col>
+                        <ion-col> <ion-radio value="Online"></ion-radio></ion-col>
+                        <ion-col><ion-label><b>Offline</b></ion-label></ion-col>
+                        <ion-col> <ion-radio value="Offline"></ion-radio></ion-col>
+                    </ion-radio-group>
+                </ion-row>
+                <ion-row class="ion-padding">
+                  <div class="dvloginErrMsg" text-center>
+                    {{error}}
+                  </div>
+                </ion-row>
+            <ion-button color="primary" expand="full" (click)="onSubmit()" [disabled]="!loginForm.valid">Log In</ion-button>
+            </form>
+         </ion-card-content>
+      </ion-card>
+</ion-content>
